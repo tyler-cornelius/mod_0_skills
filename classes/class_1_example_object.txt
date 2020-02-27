@@ -11,5 +11,5 @@ Values:
 Methods:
 1. putInOven: isHot = True
 2. changeMenu: dishName = "Exquisite Lasagna", dishPrice = 18.99
-3. writeMenu: dishName = "Grandma's Favorite Lasagna"
+3. writeMenu: dishName = "Grandma's Favorite Lasagna", dishPrice = 17.99
 4. changeIngredients: dishIngredients = ["lasagna noodles", "pasta sauce", "cheese", "garlic", "beef"]
