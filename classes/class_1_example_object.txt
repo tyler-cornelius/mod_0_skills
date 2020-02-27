@@ -1,0 +1,15 @@
+Instance: Lasagna
+
+Values:
+
+1. dishName = "Grandma's Favorite Lasagna"
+2. dishPrice = 17.99
+3. isHot = True
+4. dishIngredients = ["lasagna noodles", "pasta sauce", "cheese", "spinach", "mushrooms"]
+
+
+Methods:
+1. putInOven: isHot = True
+2. changeMenu: dishName = "Exquisite Lasagna", dishPrice = 18.99
+3. writeMenu: dishName = "Grandma's Favorite Lasagna"
+4. changeIngredients: dishIngredients = ["lasagna noodles", "pasta sauce", "cheese", "garlic", "beef"]
