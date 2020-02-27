@@ -1,0 +1,13 @@
+Class: Food
+
+Attributes:
+1. dishName (string)
+2. dishPrice (float)
+3. isHot (Boolean)
+4. dishIngredients (array)
+
+Methods:
+1. putInOven (modifies the isHot attribute to true)
+2. changeMenu (modifies dishName and dishPrice attributes)
+3. writeMenu (uses dishName and dishPrice attributes)
+4. changeIngredients (modifies the dishIngredients attribute)
