@@ -10,4 +10,4 @@ Methods:
 1. nameChange (modifies the employeeName attribute)
 2. designateTasks (modifies responsibilities attribute)
 3. fireEmployee (modifies the position attribute)
-4. promoteEmployee (modifies the isManager, and responsibilities attributes)
+4. promoteEmployee (modifies the isManager, position, and responsibilities attributes)
