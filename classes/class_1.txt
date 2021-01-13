@@ -1,13 +1,13 @@
-Class: Food
+Class: Drink
 
 Attributes:
-1. dishName (string)
-2. dishPrice (float)
-3. isHot (Boolean)
-4. dishIngredients (array)
+1. drinkName (string)
+2. drinkPrice (integer)
+3. isIced (Boolean)
+4. drinkIngredients (array)
 
 Methods:
-1. putInOven (modifies the isHot attribute to true)
-2. changeMenu (modifies dishName and dishPrice attributes)
-3. writeMenu (uses dishName and dishPrice attributes)
-4. changeIngredients (modifies the dishIngredients attribute)
+1. putInIce (modifies the isIced attribute to true)
+2. changeName (modifies drinkName attribute)
+3. addIngredient (modifies drinkIngredients attribute)
+4. addSpecial (modifies the drinkPrice attribute)

@@ -1,15 +1,14 @@
-Instance: Lasagna
+Instance: Mimosa
 
 Values:
 
-1. dishName = "Grandma's Favorite Lasagna"
-2. dishPrice = 17.99
-3. isHot = True
-4. dishIngredients = ["lasagna noodles", "pasta sauce", "cheese", "spinach", "mushrooms"]
-
+1. drinkName = "Special Bottomless Mimosas"
+2. drinkPrice = 20
+3. isIced = false
+4. drinkIngredients = [champagne, orange juice]
 
 Methods:
-1. putInOven: isHot = True
-2. changeMenu: dishName = "Exquisite Lasagna", dishPrice = 18.99
-3. writeMenu: dishName = "Grandma's Favorite Lasagna", dishPrice = 17.99
-4. changeIngredients: dishIngredients = ["lasagna noodles", "pasta sauce", "cheese", "garlic", "beef"]
+1. putInIce: isIced = true
+2. changeName: drinkName = "Bottomless Sunrise Mimosas"
+3. addIngredient: drinkIngredients = [champagne, orange juice, grenadine]
+4. addSpecial: drinkPrice = 15
