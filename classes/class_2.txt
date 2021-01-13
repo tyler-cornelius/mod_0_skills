@@ -1,13 +1,13 @@
-Class: Employee
+Class: Table
 
 Attributes:
-1. employeeName (string)
-2. position (string)
-3. isManager (boolean)
-4. responsibilities (array)
+1. numberOfChairs (integer)
+2. tableNumber (integer)
+3. canSeatLargeParties (boolean)
+4. isClean (boolean)
 
 Methods:
-1. nameChange (modifies the employeeName attribute)
-2. designateTasks (modifies responsibilities attribute)
-3. fireEmployee (modifies the position attribute)
-4. promoteEmployee (modifies the isManager, position, and responsibilities attributes)
+1. changeNumber (modifies the tableNumber attribute)
+2. addOneChair (modifies numberofChairs attribute)
+3. addTenChairs (modifies can\SeatLargeParties attribute to true)
+4. cleanTable (modifies isClean attribute to true)

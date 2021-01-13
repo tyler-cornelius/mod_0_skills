@@ -1,13 +1,14 @@
-Instance: Chef John
+Instance: Smith family table
 
 Values:
-1. employeeName = "John Doe"
-2. position = "Chef"
-3. isManager = false
-4. responsibilities = ["Cook food", "Clean Kitchen"]
+
+1. numberOfChairs = 4
+2. tableNumber = 2
+3. canSeatLargeParties = false
+4. isClean = false
 
 Methods:
-1. nameChange: employeeName = "John Smith"
-2. designateTasks: responsibilities = ["Cook food", "Clean Kitchen", "Close Restaurant"]
-3. fireEmployee: position = "Terminated"
-4. promoteEmployee: position = "Head Chef", isManager = true, responsibilities = ["Cook food", "Make menu", "Supervise staff"]
+1. changeNumber: tableNumber = 1
+2. addOneChair: numberOfChairs = 5
+3. addTenChairs: canSeatLargeParties = true
+4. cleanTable: isClean = true
